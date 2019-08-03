@@ -13,7 +13,9 @@ window.onload = function(){
         xhr.onprogress = function(e){
             console.log(e);   
             if(e.lengthComputable){
-                var porcentaje = (e.onload / e.total) * 100;
+                var porcentaje = (e.loaded / e.total) * 100;
+                console.log("poe" + porcentaje);
+                
                 progressBar.style.width = `${porcentaje}%`;
             }         
         }
