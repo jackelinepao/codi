@@ -1,0 +1,37 @@
+div {
+    box-sizing: border-box;
+    padding: 2%;
+    /* background: url(fondo.jpg); */
+    position: absolute;
+    transform: rotate(-9.5deg);
+    width: 44%;
+    top: 40%;
+    left: 11%;
+}
+
+h5 {
+    font-family: monospace;
+    font-size: 3rem;
+    color: #77cae1;
+    margin: .5rem 0;
+    text-decoration: underline;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1rem;
+    color: #89c2a7;
+}
+
+body {
+    margin: 0
+}
+
+body img {
+    width: 100%;
+}
+
+div {
+    font-size: 40px;
+    background-color: violet !important;
+}

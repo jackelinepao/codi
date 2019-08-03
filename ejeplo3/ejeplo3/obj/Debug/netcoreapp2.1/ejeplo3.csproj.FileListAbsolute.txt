@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\obj\Debug\netcoreapp2.1\ejeplo3.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\obj\Debug\netcoreapp2.1\ejeplo3.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\obj\Debug\netcoreapp2.1\ejeplo3.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\obj\Debug\netcoreapp2.1\ejeplo3.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\bin\Debug\netcoreapp2.1\ejeplo3.deps.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\bin\Debug\netcoreapp2.1\ejeplo3.runtimeconfig.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\bin\Debug\netcoreapp2.1\ejeplo3.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\bin\Debug\netcoreapp2.1\ejeplo3.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\bin\Debug\netcoreapp2.1\ejeplo3.pdb
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\obj\Debug\netcoreapp2.1\ejeplo3.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejeplo3\ejeplo3\obj\Debug\netcoreapp2.1\ejeplo3.pdb

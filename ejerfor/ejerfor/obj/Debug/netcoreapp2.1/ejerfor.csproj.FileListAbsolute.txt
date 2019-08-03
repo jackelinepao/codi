@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\bin\Debug\netcoreapp2.1\ejerfor.deps.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\bin\Debug\netcoreapp2.1\ejerfor.runtimeconfig.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\bin\Debug\netcoreapp2.1\ejerfor.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\bin\Debug\netcoreapp2.1\ejerfor.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\bin\Debug\netcoreapp2.1\ejerfor.pdb
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\obj\Debug\netcoreapp2.1\ejerfor.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\obj\Debug\netcoreapp2.1\ejerfor.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\obj\Debug\netcoreapp2.1\ejerfor.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\obj\Debug\netcoreapp2.1\ejerfor.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\obj\Debug\netcoreapp2.1\ejerfor.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejerfor\ejerfor\obj\Debug\netcoreapp2.1\ejerfor.pdb

@@ -1,0 +1,11 @@
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.deps.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.runtimeconfig.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.runtimeconfig.dev.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.pdb
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.csprojAssemblyReference.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.AssemblyInfo.cs
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-siete\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.pdb

@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\bin\Debug\netcoreapp2.1\ejercicioswitch.deps.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\bin\Debug\netcoreapp2.1\ejercicioswitch.runtimeconfig.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\bin\Debug\netcoreapp2.1\ejercicioswitch.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\bin\Debug\netcoreapp2.1\ejercicioswitch.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\bin\Debug\netcoreapp2.1\ejercicioswitch.pdb
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\obj\Debug\netcoreapp2.1\ejercicioswitch.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\obj\Debug\netcoreapp2.1\ejercicioswitch.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\obj\Debug\netcoreapp2.1\ejercicioswitch.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\obj\Debug\netcoreapp2.1\ejercicioswitch.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\obj\Debug\netcoreapp2.1\ejercicioswitch.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejercicioswitch\ejercicioswitch\obj\Debug\netcoreapp2.1\ejercicioswitch.pdb

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#caja {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(228, 102, 18);
+    background: palegoldenrod;
+    margin-bottom: 50%;
+    transition: .9s all
+}
+
+#caja:hover {
+    background: orange;
+    transform: scale(1) translate(50%, 100px) rotate(900deg);
+}
+
+#caja2 {
+    width: 200px;
+    height: 200px;
+    background: fuchsia;
+    border: 1px solid red;
+    transform: skew(20deg);
+    margin: 5%;
+}
+
+#caja3 {
+    width: 200px;
+    height: 200px;
+    background: fuchsia;
+    border: 1px solid red;
+    transform: skewX(20deg) skewY(45deg);
+    margin: 10%;
+}
+
+.box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+    margin: auto;
+}
+
+.box-in {
+    width: calc(100% / 5);
+    height: 100%;
+    transition: all 200ms ease-in;
+    box-shadow: 0px 0px 0px #000000;
+    z-index: 0;
+    transform: scale(1);
+}
+
+.box-in:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #000000;
+    z-index: 2;
+}
+
+.box-in:nth-child(1) {
+    background: salmon
+}
+
+.box-in:nth-child(2) {
+    background: darkorange
+}
+
+.box-in:nth-child(3) {
+    background: orangered
+}
+
+.box-in:nth-child(4) {
+    background: khaki
+}
+
+.box-in:nth-child(5) {
+    background: rebeccapurple
+}
+
+.ctbox {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.ctbox div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .9s linear;
+    cursor: pointer
+}
+
+.ctbox div:nth-child(1) {
+    background: lawngreen;
+    transform: translate(0rem);
+}
+
+.ctbox div:nth-child(1):hover {
+    background: green;
+    transform: translate(200px);
+}
+
+.ctbox div:nth-child(2) {
+    background: lightgreen;
+    transform: translate(0rem);
+}
+
+.ctbox div:nth-child(2):hover {
+    background: rgb(23, 48, 23);
+    transform: translateY(200px);
+}

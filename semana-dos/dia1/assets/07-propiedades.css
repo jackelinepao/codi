@@ -1,0 +1,67 @@
+body {
+    font-family: 'Satisfy', cursive;
+    background: url('bg.jpg');
+    background-size: 100% auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sombra h1 {
+    color: #ffff;
+    text-shadow: -4px 3px 0 #FF5722, -5px 4px 0 #7b270d;
+}
+
+#sombra2 h1 {
+    color: #ffff;
+    -webkit-text-stroke: .3px #3bf542;
+    font-weight: bolder;
+}
+
+#sombra {
+    box-shadow: 0 0 12px 2px rgb(219, 10, 90);
+    width: 80%;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+    background: linear-gradient(to right, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+}
+
+img {
+    width: 260px;
+}
+
+.img {
+    filter: grayscale(1)
+}
+
+.img1 {
+    filter: saturate(5)
+}
+
+.img2 {
+    filter: brightness(5)
+}
+
+.img3 {
+    filter: invert(1)
+}
+
+.img4 {
+    filter: blur(5px);
+}
+
+.img5 {
+    filter: contrast();
+}
+
+#sombra2 {
+    width: 80%;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+    color: #fff;
+    background: -webkit-radial-gradient(65% 15%, circle, rgba(0, 255, 255, 0.4), rgba(0, 0, 255, 0.4)), -webkit-radial-gradient(45% 15%, green, red);
+}

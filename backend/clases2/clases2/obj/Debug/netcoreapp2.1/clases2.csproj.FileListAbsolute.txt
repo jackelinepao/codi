@@ -1,0 +1,11 @@
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\bin\Debug\netcoreapp2.1\clases2.deps.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\bin\Debug\netcoreapp2.1\clases2.runtimeconfig.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\bin\Debug\netcoreapp2.1\clases2.runtimeconfig.dev.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\bin\Debug\netcoreapp2.1\clases2.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\bin\Debug\netcoreapp2.1\clases2.pdb
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\obj\Debug\netcoreapp2.1\clases2.csprojAssemblyReference.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\obj\Debug\netcoreapp2.1\clases2.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\obj\Debug\netcoreapp2.1\clases2.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\obj\Debug\netcoreapp2.1\clases2.AssemblyInfo.cs
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\obj\Debug\netcoreapp2.1\clases2.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\clases2\clases2\obj\Debug\netcoreapp2.1\clases2.pdb

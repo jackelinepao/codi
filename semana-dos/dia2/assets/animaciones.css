@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 80%;
+}
+
+.div-animation {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed darkcyan;
+    animation: miAnimacion 8s infinite normal none;
+}
+
+@keyframes miAnimacion {
+    0% {
+        background: hotpink;
+        transform: translate(0 0);
+    }
+    25% {
+        background-color: aquamarine;
+        transform: translate(600px);
+        border-radius: 50%
+    }
+    50% {
+        background-color: rgb(23, 71, 55);
+        transform: translate(300px, 500px) rotate(360deg);
+    }
+    100% {
+        background-color: rgb(5, 58, 40);
+    }
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}

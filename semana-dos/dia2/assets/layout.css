@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    padding: 1rem;
+    background: black
+}
+
+.cont-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+nav ul {
+    display: flex
+}
+
+nav ul li {
+    list-style: none;
+    padding: .5rem 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none
+}
+
+main {
+    margin-top: 2rem
+}
+
+.box {
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 0 15px;
+}
+
+.box-content {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    padding: 2rem 1.5rem 3rem;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: .76rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.cont-section {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.cont-section a {
+    font-size: .7rem;
+    font-weight: 500;
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background: #ff0000;
+    padding: .5rem 0;
+    display: block;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s all
+}
+
+.cont-section a:hover {
+    border-color: #ff0000;
+    background: white;
+    color: #ff0000;
+}

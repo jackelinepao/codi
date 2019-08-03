@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <style>
+    .height{
+        height: 16rem;
+    }
+    .height-medium{
+        height: 8rem;
+    }
+    .fondo-textura{
+        background: url("./assets/img/bg.jpg")
+    }
+    main{
+        position: relative;
+    }
+    .btn{
+        width: 4rem;
+        height: 4rem;
+        background: red;
+        position: fixed;
+        border-radius: 50%;
+        bottom: 2rem;
+    right: 2rem;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h3>Tabla simple <code>class="table"</code></h3>
+            <table class="table" id="tabla">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                <tfooter>
+                    <tr>
+                        <td>pie de pagina => 0</td>
+                        <td>pie de pagina => 0</td>
+                        <td>pie de pagina => 0</td>
+                        <td>pie de pagina => 0</td>
+                    </tr>
+                </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla simple con estilo dark <code>class="table-dark"</code> </h3>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                <tfooter>
+                    <tr>
+                        <td>pie de pagina => 0</td>
+                        <td>pie de pagina => 0</td>
+                        <td>pie de pagina => 0</td>
+                        <td>pie de pagina => 0</td>
+                    </tr>
+                </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla simple con colores alternos <code>class="table-striped"</code> </h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                     <tfooter>
+                         <tr>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                         </tr>
+                     </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla simple con bordes en todas las celdas <code>class="table-bordered"</code> </h3>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                     <tfooter>
+                         <tr>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                         </tr>
+                     </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla simple con efecto "hover" <code>class="table-hover"</code> </h3>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                     <tfooter>
+                         <tr>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                         </tr>
+                     </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla con tamaño reducido <code>class="table-sm"</code> </h3>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                     <tfooter>
+                         <tr>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                         </tr>
+                     </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla simple con estilos combinados</code> </h3>
+            <table class="table  table-dark table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                     <tfooter>
+                         <tr>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                         </tr>
+                     </tfooter>
+
+    
+                </tbody>
+            </table>
+            <h3>Tabla simple con diferetes colores de fila</code> </h3>
+            <table class="table ">
+                <thead class="thead-dark">
+                    <tr class="">
+                        <th>titulo => 01</th>
+                        <th>titulo => 02</th>
+                        <th>titulo => 03</th>
+                        <th>titulo => 04</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr class="table-active">
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                    <tr>
+                        <td>contenido =>01</td>
+                        <td>contenido =>02</td>
+                        <td>contenido =>03</td>
+                        <td>contenido =>04</td>
+                    </tr>
+                </tbody>
+                     <tfooter>
+                         <tr>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                             <td>pie de pagina => 0</td>
+                         </tr>
+                     </tfooter>
+                <h3>Tabla responsive xl lg md sm<code>class="table-responsive-lg"</code></h3>
+                <div class="table-responsive-lg">
+                <table class="table" id="tablaGuardar">
+                        <thead class="thead-dark">
+                            <tr class="">
+                                <th>titulo => 01</th>
+                                <th>titulo => 02</th>
+                                <th>titulo => 03</th>
+                                <th>titulo => 04</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr class="table-active">
+                                <td>contenido =>01</td>
+                                <td>contenido =>02</td>
+                                <td>contenido =>03</td>
+                                <td>contenido =>04</td>
+                            </tr>
+                            <tr>
+                                <td>contenido =>01</td>
+                                <td>contenido =>02</td>
+                                <td>contenido =>03</td>
+                                <td>contenido =>04</td>
+                            </tr>
+                            <tr>
+                                <td>contenido =>01</td>
+                                <td>contenido =>02</td>
+                                <td>contenido =>03</td>
+                                <td>contenido =>04</td>
+                            </tr>
+                            <tr>
+                                <td>contenido =>01</td>
+                                <td>contenido =>02</td>
+                                <td>contenido =>03</td>
+                                <td>contenido =>04</td>
+                            </tr>
+                        </tbody>
+                             <tfoot>
+                                 <tr>
+                                     <td>pie de pagina => 0</td>
+                                     <td>pie de pagina => 0</td>
+                                     <td>pie de pagina => 0</td>
+                                     <td>pie de pagina => 0</td>
+                                 </tr>
+                             </tfoot>
+            
+                    </table>
+                    <input type="text" id="input1"/>
+            <input type="text" id="input2"/>
+            <input type="text" id="input3"/>
+            <input type="text" id="input4"/>
+            <button>Guargar</button>
+                    <div>
+                        <table class="table" id="tablaBoleta">
+                            <thead class="thead-dark">
+                                <tr class="">
+                                    <th>Cantidad</th>
+                                    <th>Descrpción</th>
+                                    <th>Precio Unitario</th>
+                                    <th>Precio Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                                 <tfoot>
+                                     <tr>
+                                         <td colspan="3">Total</td>
+                                         <td>0</td>
+                                     </tr>
+                                 </tfoot>
+                
+                        </table>
+                </div>
+                <div>
+                    <label for="input-1">Cantidad</label><input type="text" id="input-1"/>
+                </div>
+                <div>
+                    <label for="input-2"></label>
+                    <input type="text" id="input-2"/>
+                </div>
+                <div>
+                    <label for="">Precio Unitario</label>
+                    <input type="text" id="input-3"/>
+                </div>
+                
+                <button>Guargar</button>
+        
+            </div>
+            </div>
+            
+            
+    <div class="btn">Button</div>
+            </div>
+        </div>
+        <div class="btn">Button</div>
+        
+    </main>
+    
+
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\bin\Debug\netcoreapp2.1\HerenciaGatos.deps.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\bin\Debug\netcoreapp2.1\HerenciaGatos.runtimeconfig.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\bin\Debug\netcoreapp2.1\HerenciaGatos.runtimeconfig.dev.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\bin\Debug\netcoreapp2.1\HerenciaGatos.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\bin\Debug\netcoreapp2.1\HerenciaGatos.pdb
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\obj\Debug\netcoreapp2.1\HerenciaGatos.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\obj\Debug\netcoreapp2.1\HerenciaGatos.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\obj\Debug\netcoreapp2.1\HerenciaGatos.AssemblyInfo.cs
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\obj\Debug\netcoreapp2.1\HerenciaGatos.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\obj\Debug\netcoreapp2.1\HerenciaGatos.pdb
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\HerenciaGatos\HerenciaGatos\obj\Debug\netcoreapp2.1\HerenciaGatos.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\bin\Debug\netcoreapp2.1\ejer.deps.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\bin\Debug\netcoreapp2.1\ejer.runtimeconfig.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\bin\Debug\netcoreapp2.1\ejer.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\bin\Debug\netcoreapp2.1\ejer.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\bin\Debug\netcoreapp2.1\ejer.pdb
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\obj\Debug\netcoreapp2.1\ejer.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\obj\Debug\netcoreapp2.1\ejer.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\obj\Debug\netcoreapp2.1\ejer.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\obj\Debug\netcoreapp2.1\ejer.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\obj\Debug\netcoreapp2.1\ejer.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\ejer\ejer\obj\Debug\netcoreapp2.1\ejer.pdb

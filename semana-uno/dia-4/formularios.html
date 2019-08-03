@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <!-- <fieldset>
+            agrupa formularios
+            <legend>DATOS DEL USUARIO</legend>
+            <div>
+                <label for="">Nombre</label>
+                <input type="text" name="" id="" />
+            </div>
+
+            <div>
+                <input type="text" name="" placeholder="apellido" id="">
+            </div>
+            <div>
+                <label>Fecha de Nacimiento</label>
+                <input type="date" name="" id=""></div>
+        </fieldset>-->
+        <table>
+            <tr>
+                <td><label for="name">Nombre</label></td>
+                <td><input id="name" type="text" placeholder="Ejem: Juan" minlength="2" maxlength="10" required style="width: 100%; border: 1px solid red"></td>
+            </tr>
+            <tr>
+                <td><label>Apellido</label></td>
+                <td><input type="text" style="width: 100%; border: 1px solid red"></td>
+            </tr>
+            <tr>
+                <td><label for="">Fecha de Nacimiento</label></td>
+                <td><input type="date" name="" id="" style="width: 100%; border: 1px solid red"></td>
+            </tr>
+            <tr>
+                <td><label for="">Hora de ingreso</label></td>
+                <td><input type="time" name="" id="" style=" border: 1px solid red"></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="" id="" style="width: 100%; border: 1px solid red" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="almenos una mayuscula y un numero, minimo 8 caracteres"></td>
+            </tr>
+            <tr>
+                <td><label for="">Correo Electronico</label></td>
+                <td><input type="email" autofocus name="" id="" style="width: 100%; border: 1px solid red"></td>
+            </tr>
+            <tr>
+                <td><label for="">Color favorito:</label></td>
+                <td><input type="color" name="" id="" style=" border: 1px solid red"></td>
+            </tr>
+            <tr>
+                <td><label for="">Foto de Perfil</label></td>
+                <td><input type="file" name="" id="" style="width: 100%; border: 1px solid red" tabindex="3"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">check1</label>
+                    <input type="checkbox" name="" id="chech1">
+                    <label for="">check2</label>
+                    <input type="checkbox" name="" id="chech2">
+                    <label for="">check3</label>
+                    <input type="checkbox" name="" id="chech3">
+                    <label for="">check4</label>
+                    <input type="checkbox" name="" id="chech4">
+                    <label for="">check5</label>
+                    <input type="checkbox" name="" id="chech5">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Enviar</button></td>
+                <td><input type="submit" value="Registar"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="radio1">serie</label>
+                    <input id="radio1" type="radio" name="serie">
+                    <label for="radio2">serie 2</label>
+                    <input type="radio" name="serie" id="radio2">
+                    <label for="radio3">serie 3</label>
+                    <input type="radio" name="serie" id="radio3" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="list" id="">
+                        <option value="1">list1</option>
+                        <option value="2" selected>list2</option>
+                        <option value="3" disabled>list3</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

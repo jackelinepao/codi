@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\obj\Debug\netcoreapp2.1\funciones.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\obj\Debug\netcoreapp2.1\funciones.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\obj\Debug\netcoreapp2.1\funciones.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\obj\Debug\netcoreapp2.1\funciones.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\bin\Debug\netcoreapp2.1\funciones.deps.json
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\bin\Debug\netcoreapp2.1\funciones.runtimeconfig.json
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\bin\Debug\netcoreapp2.1\funciones.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\bin\Debug\netcoreapp2.1\funciones.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\bin\Debug\netcoreapp2.1\funciones.pdb
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\obj\Debug\netcoreapp2.1\funciones.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\funciones\funciones\obj\Debug\netcoreapp2.1\funciones.pdb

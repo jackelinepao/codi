@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+section:first-child {
+    height: 40%;
+}
+
+section:first-child div {
+    width: calc(100%-2rem);
+    height: 100%;
+    background: orange;
+    margin: 0 1rem;
+}
+
+section:nth-child(2) {
+    height: calc(30% - 1rem);
+    width: calc(100% - 1rem);
+    margin: 0 auto;
+}
+
+section:nth-child(2) div {
+    height: 100%;
+    width: calc(50% - 1rem);
+    float: left;
+    background: skyblue;
+    box-sizing: border-box;
+    margin: 1rem .5rem 0;
+}
+
+section:nth-child(3) {
+    height: calc(30% - 1rem);
+    width: calc(100% - 1rem);
+    margin: 0 auto;
+}
+
+section:nth-child(3) div {
+    height: 100%;
+    width: calc((100% / 3) - 1rem);
+    float: left;
+    background: rgb(38, 50, 54);
+    box-sizing: border-box;
+    margin: 1rem .5rem 0;
+}

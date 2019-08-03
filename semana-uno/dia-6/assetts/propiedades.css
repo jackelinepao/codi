@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'satisfy';
+    src: local('Satisfy-Regularr'), url('./Satisfy-Regular.eot?#iefix') format('embedded-opentype'), url('./Satisfy-Regular.ttf') format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#font-family {
+    font-family: 'satisfy'
+}
+
+#font-size {
+    font-size: 40px;
+}
+
+.text {
+    font-family: 'satisfy';
+    user-select: none;
+}
+
+.text2 {
+    font-family: 'Carter One', cursive;
+}

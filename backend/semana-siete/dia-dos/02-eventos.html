@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #captcha{
+        width: 250px;
+        border: 2px solid black;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    </style>
+    <script src="./assets/02-eventosl.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Formulario</legend>
+        <label for="correo">Correo:</label>
+        <input type="email" name="" id="email" placeholder="Ingrese su correo">
+        <select name="" id="comida">
+            <option value="0" selected>Elija una comida opción</option>
+            <option value="1">Comida Rápida</option>
+            <option value="2">Comida Casera</option>
+            <option value="3">Piqueos</option>
+        </select>
+        <select name="" id="tipoComida" disabled>
+            <option value="0" selected>Seleccione...</option>
+        </select>
+        <div id="captcha">
+            <p>De doble click para validar que no es un robot</p>
+            <img src="https://picsum.photos/200/200" alt="" id="imagen">
+        </div>
+    </fieldset>
+</body>
+</html>

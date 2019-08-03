@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlay {
+    background: #808080;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box
+}
+
+.modal {
+    width: 26%;
+    height: 100%;
+    margin: auto;
+    padding: 8% 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cont {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.perfil {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background: #60c7c1;
+    display: flex;
+    position: absolute;
+    top: -3rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.14);
+}
+
+.perfil img {
+    width: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: rgba(128, 128, 128, 0.8);
+}
+
+input {
+    padding: .5rem 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+input::placeholder {
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.box {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 5rem 0 2rem;
+}
+
+button {
+    background: #60c7c1;
+    color: white;
+    padding: 0.6rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    border: none;
+}
+
+a {
+    box-sizing: border-box;
+    display: block;
+    background: #ecf0f1;
+    width: 100%;
+    color: #aeb3bb;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+}

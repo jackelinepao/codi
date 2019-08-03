@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('bg.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Courgette', cursive;
+}
+
+#contenedor {
+    width: 80%;
+    margin: 5% auto;
+    padding: .5rem;
+    box-sizing: border-box;
+    border: 2px dotted green;
+}
+
+#caja1 {
+    border: 3px dashed yellowgreen;
+    padding: .5rem 0 .5rem 2.5rem;
+    background: rgba(250, 250, 250, 0.51) url(sun.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 2rem
+}
+
+#caja2 {
+    margin: 1.5rem 1rem;
+    padding: .1rem .1rem 3rem .1rem;
+    background: url('star.png');
+    background-size: 3%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+#caja3 {
+    margin: 1.5rem 0;
+    padding: 1rem 1rem 3rem;
+    border-top: 3px double rgb(144, 238, 144);
+    background: rgba(250, 250, 250, .4);
+    border-bottom: 6px solid rgb(152, 251, 152);
+    border-radius: 0 50px 0 50px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    background: yellow;
+    border-radius: 100%;
+}
+
+.btn {
+    background: goldenrod;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+    border-radius: 12px;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: maroon;
+    text-decoration: none;
+}

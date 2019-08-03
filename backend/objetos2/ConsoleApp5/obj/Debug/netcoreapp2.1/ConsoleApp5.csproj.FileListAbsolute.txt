@@ -1,0 +1,10 @@
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.deps.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.runtimeconfig.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.runtimeconfig.dev.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\bin\Debug\netcoreapp2.1\ConsoleApp5.pdb
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.AssemblyInfo.cs
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\objetos2\ConsoleApp5\obj\Debug\netcoreapp2.1\ConsoleApp5.pdb

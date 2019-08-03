@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./assets/storage.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        padding: 10%;
+    }
+    .element{
+        display: flex;
+        margin: 1rem 0;
+    }
+    label{
+        margin-right: 1rem;
+    }
+    input[type=submit]{
+        margin-right: 2rem;
+    }
+</style>
+<body id="body">
+    <h1>REGISTRO DE USUARIO</h1>
+    <form action="">
+        <fieldset>
+            <legend>Ingrese sus datos</legend>
+            <div class="element">
+                <label for="name">Nombres:</label>
+                <input type="text" name="" id="name">
+            </div>
+            <div class="element">
+                <label for="lastname">Apellidos:</label>
+                <input type="text" name="" id="lastname">
+            </div>
+            <div class="element">
+                <label for="color">Color favorito:</label>
+                <input type="color" name="" id="color">
+            </div>
+            <div class="element">
+                <input type="submit" value="Guardar Datos" id="enviar">
+                <button id="delete">Borrar storage</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

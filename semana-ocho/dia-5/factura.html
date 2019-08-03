@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td>Fecha: </td>
+                    <td><input type="date" name="" id="fecha" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Nombre: </td>
+                    <td><input type="text" name="" id="nombre" placeholder="Ingreses un Nombre" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>RUC / DNI</td>
+                    <td><input type="text" name="" id="dni" placeholder="Ingrese un RUC o DNI" class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td><input type="text" name="" id="dire" placeholder="Ingrese una Dirección" class="form-control"></td>
+                </tr>
+            </table>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Descrpción</th>
+                        <th>Precio Unitario</th>
+                        <th>Total Producto</th>
+                    </tr>
+                </thead>
+                <tbody id="contFactura">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td><div id="totalGeneral"></div></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <form action="" id="detalle">
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label for="cant">Cantidad</label>
+                        <input type="number" class="form-control" placeholder="Ingrese la cantidad" id="cant">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="producto">Producto</label>
+                        <input type="text" class="form-control" placeholder="Ingrese el producto" id="producto">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="precio">Precio</label>
+                        <input type="text" class="form-control" placeholder="Ingrese el precio" id="precio">
+                    </div>
+                    <div class="form-group col-12">
+                        <button class="btn btn-primary" id="agregar">Agregar</button>
+                    </div>
+                    
+                </div>
+            </form>
+            <div>
+                <button type="submit" id="grabar">Grabar Factura</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/factura.js"></script>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

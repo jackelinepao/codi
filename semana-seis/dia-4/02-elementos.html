@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatibl,e" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html{
+            background: black;
+            color: #fff;
+        }
+        .item {
+            list-style: none;
+            align-items: center
+        }
+        .item::before{
+            content: '';
+            width: 5px;
+            height: 5px;
+            background-color: aquamarine;
+            transform: rotate(45deg);
+            margin-right: 5px;
+            animation-duration: 3s;
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes rotate {
+            from {transform: rotate(0)}
+            to {transform:rotate(360deg)}
+            }
+    </style>
+</head>
+<body>
+    <main id="principal"></main>
+    <script src="./assets/02-elementos.js"></script> 
+</body>
+</html>

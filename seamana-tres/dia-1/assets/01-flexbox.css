@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.item {
+    border: 1px solid rebeccapurple;
+    box-sizing: border-box;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.big {
+    flex-basis: 500px
+}

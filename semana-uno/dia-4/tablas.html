@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <!--tr=fila, td=columna, alt + shit + f https://datatables.net/ codrops-->
+        <tr>
+            <th>columna1</th>
+            <th>columna2</th>
+        </tr>
+        <tr>
+            <td>t1</td>
+            <td>t2</td>
+        </tr>
+        <tr>
+            <td>xs</td>
+            <td>xs</td>
+        </tr>
+        <tr>
+            <td>xs</td>
+            <td>xs</td>
+        </tr>
+        <tr>
+            <td>xs</td>
+            <td>xs</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr id="fila1">
+            <td class="col1" colspan="3">texto</td>
+            <td class="col4">texto</td>
+        </tr>
+        <tr id="fila2">
+            <td class="col1">texto</td>
+            <td class="col2">texto</td>
+            <td class="col3">texto</td>
+            <td class="col4">texto</td>
+        </tr>
+        <tr id="fila3">
+            <td class="col1" colspan="2">texto</td>
+            <td class="col3">texto</td>
+            <td class="col4">texto</td>
+        </tr>
+        <tr id="fila4">
+            <td class="col1">texto</td>
+            <td class="col2">texto</td>
+            <td class="col3">texto</td>
+            <td class="col4">texto</td>
+        </tr>
+        <tr id="fila5">
+            <td class="col1" colspan="4">texto</td>
+        </tr>
+        <tr id="fila6">
+            <td class="col1">texto</td>
+            <td class="col2">texto</td>
+            <td class="col3 " colspan="2">texto</td>
+        </tr>
+        <tr id="fila7">
+            <td class="col1">texto</td>
+            <td class="col2">texto</td>
+            <td class="col3">texto</td>
+            <td class="col4">texto</td>
+        </tr>
+        <tr id="fila8">
+            <td class="col1">texto</td>
+            <td class="col2">texto</td>
+            <td class="col3">texto</td>
+            <td class="col4">texto</td>
+        </tr>
+    </table>
+    <hr/>
+    <table border="1">
+        <tr id="fila1">
+            <td class="columna1" rowspan="2">fila 1</td>
+            <td class="columna2">texto</td>
+            <td class="columna3">texto</td>
+            <td class="columna4" rowspan="5">texto</td>
+            <td class="columna5">texto</td>
+            <td class="columna6">texto</td>
+            <td class="columna7" rowspan="2">texto</td>
+        </tr>
+        <tr id="fila2">
+            <td class="columna1">fila 2</td>
+            <td class="columna2">texto</td>
+            <td class="columna3">texto</td>
+            <td class="columna4">texto</td>
+        </tr>
+        <tr id="fila3">
+            <td class="columna1" rowspan="3" colspan="3">fila 3</td>
+            <td class="columna4">texto</td>
+            <td class="columna5">texto</td>
+            <td class="columna6">texto</td>
+        </tr>
+        <tr id="fila4">
+            <td class="columna1">fila 4</td>
+            <td class="columna2">texto</td>
+            <td class="columna3">texto</td>
+        </tr>
+        <tr id="fila5">
+            <td class="columna1">fila 5</td>
+            <td class="columna2">texto</td>
+            <td class="columna3">texto</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr id="fila1">
+                <th class="columna1">texto</th>
+                <th class="columna2">texto</th>
+                <th class="columna3">texto</th>
+                <th class="columna4">texto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="fila2">
+                <td class="columna1" rowspan="4">you can span down</td>
+                <td class="columna2" colspan="3">texto</td>
+            </tr>
+            <tr id="fila3">
+                <td class="columna2" colspan="2">texto</td>
+                <td class="columna3" rowspan="3">texto</td>
+            </tr>
+            <tr id="fila4">
+                <td class="columna1" rowspan="2">texto</td>
+                <td class="columna2">texto</td>
+            </tr>
+            <tr id="fila5">
+                <td class="columna1">texto</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">total</td>
+                <td>900</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

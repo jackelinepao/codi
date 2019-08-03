@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+header {
+    border: 1px solid goldenrod;
+    height: 15%;
+    box-sizing: border-box;
+    background: gold;
+}
+
+main {
+    height: 85%;
+}
+
+section:first-child {
+    height: 100%;
+    width: 70%;
+    background: greenyellow;
+    float: left;
+}
+
+section:nth-child(2) {
+    height: 100%;
+    width: 30%;
+    background: rgb(31, 36, 24);
+    float: right
+}

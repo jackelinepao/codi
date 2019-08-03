@@ -1,0 +1,120 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            display: flex;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: darkorange
+        }
+        
+        ul li {
+            list-style: none;
+            align-items: center;
+            padding-right: 2rem;
+            box-sizing: border-box;
+        }
+        
+        #tabla1 {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #tabla1 td,
+        #tabla1 th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        #tabla1 tr:nth-child(odd) {
+            background-color: red;
+        }
+        
+        #tabla1 tr:nth-child(even) {
+            background-color: orange;
+        }
+        
+        #tabla1 tr:hover {
+            background-color: #ddd;
+        }
+        
+        #tabla1 th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        p.article {
+            background: red;
+        }
+        
+        #item1 {
+            color: antiquewhite
+        }
+        
+        #item2 {
+            font-weight: bolder;
+            color: red
+        }
+        
+        #item3 {
+            background: yellow;
+        }
+        
+        p.parrafo {
+            font-size: 2rem
+        }
+        
+        p.parrafo span:nth-child(even) {
+            color: red
+        }
+        
+        p.parrafo span:nth-child(odd) {
+            color: black
+        }
+        
+        #item4 {
+            background: green;
+        }
+        
+        label[for] {
+            background: red;
+            color: white
+        }
+        
+        label[for="variable"] {
+            background: white;
+            color: red;
+        }
+        
+        #tabla2 {
+            border-collapse: collapse
+        }
+        
+        #tabla2 tr:nth-child(even) {
+            background: skyblue;
+            font-weight: bold;
+            font-family: monospace;
+            color: white;
+        }
+        
+        #tabla2 tr:nth-child(odd) {
+            background: blue;
+            font-weight: bold;
+            font-family: Arial;
+            color: white;
+        }
+        
+        div:not(.excepcion) {
+            font-size: 40px;
+            background-color: violet !important;
+        }

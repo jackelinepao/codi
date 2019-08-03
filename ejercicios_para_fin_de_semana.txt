@@ -1,0 +1,20 @@
+Escribir los N últimos números impares desde 100
+Imprimir suma de los números intermedios de dos números
+
+Dado 3:
+    1
+  2   3
+4   5   6
+
+int [] arreglo = {45,3,45,2,3,3,9,10};
+Dado un arreglo con datos:
+Sumar los elementos.
+Obtener media de elementos
+Obtener el lemento más grande
+Copia de un arreglo a otro
+Revertir arreglo
+
+Insertar N elementos de la numeración Fibonacci
+1 1 2 3 5 8 13 21 34
+
+Potenciación sin multiplicación

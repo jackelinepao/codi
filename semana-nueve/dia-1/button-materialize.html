@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="col xl12 deep-purple darken-1">itme1</div>
+                <div class="col xl12">itme2</div>
+                <div class="col xl12 deep-purple darken-1">itme3</div>
+            </div>
+            <h6><code>class="col xl[#]"</code> Las columnas colapsan cuando la ventana mide menos de de 1200px</h6>
+            <br>
+            <div class="row">
+                <div class="col xl3 p-2 deep-purple">Columna => 01</div>
+                <div class="col xl3 p-2">Columna => 02</div>
+                <div class="col xl3 p-2 deep-purple ">Columna => 03</div>
+                <div class="col xl3 p-2">Columna => 04</div>
+            </div>
+            <h6><code>class="col l[#]"</code> Las columnas colapsan cuando la ventana mide menos de de 992px</h6>
+            <br>
+            <div class="row">
+                <div class="col l2 p-2 deep-purple">Columna => 01</div>
+                <div class="col l2 p-2 ">Columna => 02</div>
+                <div class="col l2 p-2 deep-purple">Columna => 03</div>
+                <div class="col l2 p-2 ">Columna => 05</div>
+                <div class="col l2 p-2 deep-purple">Columna => 03</div>
+                <div class="col l2 p-2 ">Columna => 06</div>
+            </div>
+            <h6><code>class="col m[#]"</code> Las columnas colapsan cuando la ventana mide menos de de 768px</h6>
+            <br>
+            <div class="row">
+                <div class="col m4 deep-purple">Columna => 01</div>
+                <div class="col m4 ">Columna => 02</div>
+                <div class="col m4 deep-purple">Columna => 03</div>
+            </div>
+            <h6><code>class="col s[#]"</code> Las columnas colapsan cuando la ventana mide menos de de 576px</h6>
+            <br>
+            <div class="row">
+                <div class="col s6 deep-purple">Columna => 01</div>
+                <div class="col s6 ">Columna => 02</div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="valign-wrapper deep-purple" style="height: 300px">
+                <h5>This should be vertically aligned</h5>
+            </div>
+            <br>
+            <div style="height: 100px" class="deep-purple">
+                <br>
+                <h5 class="left-align">This should be left aligned</h5>
+            </div>
+            <br>
+            <div style="height: 100px" class="deep-purple">
+                <br>
+                <h5 class="right-align">This should be right aligned</h5>
+            </div>
+            <br>
+            <div style="height: 100px" class="deep-purple">
+                <br>
+                <h5 class="center-align">This should be center aligned</h5>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="container">
+            <form action="#">
+                <h5>checkbox colors</h5>
+                <p>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Red</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" checked="checked" />
+                        <span>Yellow</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" checked="checked" />
+                        <span>Filled in</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="indeterminate-checkbox" type="checkbox" />
+                        <span>Indeterminate Style</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" checked="checked" disabled="disabled" />
+                        <span>Green</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" disabled="disabled" />
+                        <span>Brown</span>
+                    </label>
+                </p>
+                <h5>Radio Butons colors</h5>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" checked />
+                        <span>Red</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" />
+                        <span>Yellow</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="group1" type="radio" />
+                        <span>Green</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" disabled="disabled" />
+                        <span>Brown</span>
+                    </label>
+                </p>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col m6">
+                    <a class="waves-effect waves-light btn">button</a>
+                    <a class="waves-effect waves-light btn-large">Button</a>
+                    <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a>
+                    <a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>button</a>
+                </div>
+                <div class="col m6">
+                    <a class="waves-effect waves-light btn">button</a>
+                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+                </div>
+            </div>
+        </div>
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        <div class="container">
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+
+            <div class="input-field col s12">
+                <select multiple>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+                <label>Materialize Multiple Select</label>
+            </div>
+
+            <div class="input-field col s12">
+                <select>
+                    <optgroup label="team 1">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                    </optgroup>
+                    <optgroup label="team 2">
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                    </optgroup>
+                </select>
+                <label>Optgroups</label>
+            </div>
+
+            <div class="input-field col s12 m6">
+                <select class="icons">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="" data-icon="images/sample-1.jpg">example 1</option>
+                    <option value="" data-icon="images/office.jpg">example 2</option>
+                    <option value="" data-icon="images/yuna.jpg">example 3</option>
+                </select>
+                <label>Images in select</label>
+            </div>
+            <div class="input-field col s12 m6">
+                <select class="icons">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="" data-icon="images/sample-1.jpg" class="left">example 1</option>
+                    <option value="" data-icon="images/office.jpg" class="left">example 2</option>
+                    <option value="" data-icon="images/yuna.jpg" class="left">example 3</option>
+                </select>
+                <label>Images in select</label>
+            </div>
+
+            <label>Browser Select</label>
+            <select class="browser-default">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./custom.js"></script>
+
+</body>
+
+</html>

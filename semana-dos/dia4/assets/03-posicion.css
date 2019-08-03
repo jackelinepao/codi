@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+div:nth-child(1) {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+div div:nth-child(1) {
+    position: relative;
+    left: 20px;
+    top: 20px
+}

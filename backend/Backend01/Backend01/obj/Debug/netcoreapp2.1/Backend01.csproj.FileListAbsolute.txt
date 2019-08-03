@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\bin\Debug\netcoreapp2.1\Backend01.deps.json
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\bin\Debug\netcoreapp2.1\Backend01.runtimeconfig.json
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\bin\Debug\netcoreapp2.1\Backend01.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\bin\Debug\netcoreapp2.1\Backend01.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\bin\Debug\netcoreapp2.1\Backend01.pdb
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\obj\Debug\netcoreapp2.1\Backend01.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\obj\Debug\netcoreapp2.1\Backend01.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\obj\Debug\netcoreapp2.1\Backend01.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\obj\Debug\netcoreapp2.1\Backend01.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\obj\Debug\netcoreapp2.1\Backend01.dll
+C:\Users\Tecsup\Documents\codigo-jackeline\Backend01\Backend01\obj\Debug\netcoreapp2.1\Backend01.pdb

@@ -1,0 +1,11 @@
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\bin\Debug\netcoreapp2.1\ejercicio1.deps.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\bin\Debug\netcoreapp2.1\ejercicio1.runtimeconfig.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\bin\Debug\netcoreapp2.1\ejercicio1.runtimeconfig.dev.json
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\bin\Debug\netcoreapp2.1\ejercicio1.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\bin\Debug\netcoreapp2.1\ejercicio1.pdb
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\obj\Debug\netcoreapp2.1\ejercicio1.csprojAssemblyReference.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\obj\Debug\netcoreapp2.1\ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\obj\Debug\netcoreapp2.1\ejercicio1.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\obj\Debug\netcoreapp2.1\ejercicio1.AssemblyInfo.cs
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\obj\Debug\netcoreapp2.1\ejercicio1.dll
+C:\Users\mañana\Desktop\hoy\codigo-jackeline\backend\semana-6\ejercicio1\ejercicio1\obj\Debug\netcoreapp2.1\ejercicio1.pdb

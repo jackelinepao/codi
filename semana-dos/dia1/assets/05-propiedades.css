@@ -1,0 +1,22 @@
+h3 {
+    color: green
+}
+
+#rgb {
+    color: rgb(148, 249, 208)
+}
+
+#hex {
+    color: #EAA591;
+}
+
+#rgba {
+    color: rgba(222, 330, 222, .7)
+}
+
+#tamanio {
+    width: 300px;
+    height: 400px;
+    border: 1px solid red;
+    overflow-y: auto
+}
