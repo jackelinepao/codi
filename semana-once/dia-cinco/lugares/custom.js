@@ -17,7 +17,8 @@ window.onload = function(){
                 console.log("Cargando...")
             }
             if(xhr.readyState == 4){
-                console.log("4444444")
+                console.log("4444444");
+                console.log(JSON.parse(xhr.responseText));
             }
         }
         
