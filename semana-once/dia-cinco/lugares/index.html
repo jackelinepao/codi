@@ -13,6 +13,9 @@
         .red {
             color: red;
         }
+        #map {
+            height: 20rem;
+      }
     </style>
 </head>
 
@@ -50,7 +53,47 @@
     <main>
         <!-- <button class="btn btn-primary">Iniciar Secion <i class="far fa-user red fa-10x"></i><i class="fas fa-spinner fa-pulse fa-2x"></i></button>
         <p contenteditable="true">dddd</p> -->
+        <div class="container">
+            <div class="alert alert-success text-center animated fadeIn slow" role="alert" hidden id="load">
+                <h4 class="alert-heading display-4">Cargando Resultado...</h4>
+                <i class="fas fa-spinner fa-pulse fa-2x"></i>
+              </div>
+              <div class="alert alert-success text-center animated shake fast" role="alert" hidden id="sin-resultado">
+                  <h4 class="alert-heading">No hay Resultado...</h4>
+                  <i class="fas fa-sad-cry"></i>
+                </div>
+            <div id="cont"></div> 
+        </div>
+        
     </main>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+      Launch
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                    <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div id="map"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnZzdYNu8q7TN9PdX5XEmbJ2TIHYMC8cI"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
