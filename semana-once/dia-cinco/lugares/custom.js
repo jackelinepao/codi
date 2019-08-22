@@ -59,6 +59,7 @@ window.onload = function(){
             thPais.innerHTML = "Pais"
             thLongitud.innerHTML = "Longitud"
             thLatitud.innerHTML = "Latitud"
+            thVer.innerHTML = "Ver Mapa"
             table.appendChild(thead);
             thead.appendChild(trTitulo);
             trTitulo.appendChild(thNumero);
@@ -66,6 +67,7 @@ window.onload = function(){
             trTitulo.appendChild(thTipo);
             trTitulo.appendChild(thPais);
             trTitulo.appendChild(thLongitud);
+            trTitulo.appendChild(thLatitud)
             trTitulo.appendChild(thVer);
             table.appendChild(tbody);
             
@@ -89,7 +91,10 @@ window.onload = function(){
                 btn.innerHTML = "<i class='fas fa-eye'></i>";
                 btn.classList.add("btn-primary");
                 btn.onclick = function(){
-                    
+                    $('#modalMapa').modal('show');
+                    var ubic;
+                    ubic = {lat: element.lat, lng: element.lon};
+                    initMap(ubic);
                 }
                 tr.appendChild(td1);
                 tr.appendChild(td2);
@@ -105,14 +110,16 @@ window.onload = function(){
             cont.appendChild(table)
         }
     }
-    function initMap() {
-        // inicializar el mapa
-        // la variable map es la referencia al mapa de google
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: { lat: -34.397, lng: 150.644 },
-            zoom: 8
-        });
-    }
+    
 
-    initMap();
+    
+}
+function initMap(ubic) {
+    // inicializar el mapa
+    // la variable map es la referencia al mapa de google
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: ubic,
+        zoom: 5
+    });
+    var marker = new google.maps.Marker({position: ubic, map: map});
 }
