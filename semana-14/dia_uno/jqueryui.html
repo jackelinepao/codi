@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.structure.min.css" integrity="sha256-hI5kWM8oYzqSHP4FKI/CVqKJYxXnnRMGrZBSAKwLIu0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/themes/blitzer/jquery-ui.min.css" integrity="sha256-poY2Avd6cBFWAGyAs/QxlFl7wOvb9f7vYtMksIE7vsI=" crossorigin="anonymous" />
+    <style>
+        body{
+            font-family: monospace;
+            font-size: 1.2rem;
+        }
+        .cuadrado{
+            height: 7rem;
+            width: 7rem;
+            margin: .5rem;
+            padding: .5rem;
+            background: pink;
+            border: 1px solid red;
+            border-radius: 5px;
+            color: rgba(204, 0, 255, 0.897);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            
+        }
+        .big-box{
+            width: 16rem;
+            height: 16rem;
+            background: yellow
+        }
+        .small-box{
+            width: 4rem;
+            height: 4rem;
+            background: greenyellow
+        }
+        .efecto1{
+            height: 14rem;
+            width: 14rem;
+            background: skyblue
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="cuadrado">Square 1</div>
+        <div class="cuadrado">Square 2</div>
+        <div class="cuadrado">Square 3</div>
+        <ul class="bandas">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            <li>item 7</li>
+            <li>item 8</li>
+        </ul>
+        <p>Date: <input type="text" id="datepicker"></p>
+        <div class="big-box"></div>
+        <div class="small-box"></div>
+        <div class="efecto1"></div>
+        <button class="btn1">Animar</button>
+        <div>
+            <img src="https://picsum.photos/200/200" id="img" alt="no es un gato" title="no es un gato">
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <script src="./jqueryui.js"></script>
+</body>
+
+</html>
