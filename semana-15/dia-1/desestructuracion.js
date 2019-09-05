@@ -115,75 +115,75 @@
 // //     }
 // // })
 
-// let BDalumnosCod = [
-//     {
-//         id: 1,
-//         nombre: "Roberto",
-//         edad: 30
-//     },
-//     {
-//         id: 2,
-//         nombre: "Pedro",
-//         edad: 25
-//     },
-//     {
-//         id: 3,
-//         nombre: "Maria",
-//         edad: 27
-//     },
-//     {
-//         id: 4,
-//         nombre: "Juan",
-//         edad: 20,
-//     }
-// ]
-// let cursos = [
-//     {
-//         alumnoId: 1,
-//         cursos: ["Python", "Diseño"]
-//     },
-//     {
-//         alumnoId: 2,
-//         cursos: ["Machine Learning", "Estructura de datos"]
-//     }
-// ];
+let BDalumnosCod = [
+    {
+        id: 1,
+        nombre: "Roberto",
+        edad: 30
+    },
+    {
+        id: 2,
+        nombre: "Pedro",
+        edad: 25
+    },
+    {
+        id: 3,
+        nombre: "Maria",
+        edad: 27
+    },
+    {
+        id: 4,
+        nombre: "Juan",
+        edad: 20,
+    }
+]
+let cursos = [
+    {
+        alumnoId: 1,
+        cursos: ["Python", "Diseño"]
+    },
+    {
+        alumnoId: 2,
+        cursos: ["Machine Learning", "Estructura de datos"]
+    }
+];
 
-// let getAlumnoCodById = (id, resul)=>{
-//     for (let i = 0; i < BDalumnosCod.length; i++) {
-//         if(BDalumnosCod[i].id === id){
-//             resul(null,BDalumnosCod[i]);
-//             return
-//         }
+let getAlumnoCodById = (id, resul)=>{
+    for (let i = 0; i < BDalumnosCod.length; i++) {
+        if(BDalumnosCod[i].id === id){
+            resul(null,BDalumnosCod[i]);
+            return
+        }
         
-//     }
-//     resul("no se encontros resultado")
-// }
+    }
+    resul("no se encontros resultado")
+}
 
-// let getCursosByAlumnoId = (id, result)=>{
-//     for (let i = 0; i < cursos.length; i++) {
-//         if(cursos[i].id === id){
-//             result(null, cursos[i])
-//             return;
-//         }
-//     }
-//     result("No existe cursos para el alumno")
-// }
-// id = 1;
-// getAlumnoCodById(id, (error, objAlumno) =>{
-//     if (error) {
-//         console.log(error);
-//     }else{
-//         getAlumnoCodById(id, (error, objCursos) =>{
-//             if(error){
-//                 console.log(error);
-//             }
-//             else{
-//                 console.log(objCursos);
-//             }
+let getCursosByAlumnoId = (id, result)=>{
+    for (let i = 0; i < cursos.length; i++) {
+        if(cursos[i].alumnoId === id){
+            result(null, cursos[i])
+            return;
+        }
+    }
+    result("No existe cursos para el alumno")
+}
+id = 1;
+getAlumnoCodById(id, (error, objAlumno) =>{
+    if (error) {
+        console.log(error);
+    }else{
+        getCursosByAlumnoId(id, (error, objCursos) =>{
+            if(error){
+                console.log(error);
+            }
+            else{
+                console.log(`${objAlumno.nombre} tiene los siguientes cursos:`)
+                objCursos.cursos.forEach(element => {
+                    console.log(element)
+                });
+            }
             
-//         })
-//     }
-// })
-
-
-console.log(10/0)
+        })
+    }
+})
