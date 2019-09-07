@@ -1,0 +1,11 @@
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\bin\Debug\netcoreapp2.1\conexionDB.deps.json
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\bin\Debug\netcoreapp2.1\conexionDB.runtimeconfig.json
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\bin\Debug\netcoreapp2.1\conexionDB.runtimeconfig.dev.json
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\bin\Debug\netcoreapp2.1\conexionDB.dll
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\obj\Debug\netcoreapp2.1\conexionDB.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\obj\Debug\netcoreapp2.1\conexionDB.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\obj\Debug\netcoreapp2.1\conexionDB.AssemblyInfo.cs
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\bin\Debug\netcoreapp2.1\conexionDB.pdb
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\obj\Debug\netcoreapp2.1\conexionDB.csprojAssemblyReference.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\obj\Debug\netcoreapp2.1\conexionDB.dll
+C:\Users\mañana\Desktop\hoy\codi\backend\conexionDB\conexionDB\obj\Debug\netcoreapp2.1\conexionDB.pdb
