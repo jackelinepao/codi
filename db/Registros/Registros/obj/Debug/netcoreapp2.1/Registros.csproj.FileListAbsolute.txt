@@ -1,0 +1,7 @@
+C:\Users\mañana\source\repos\Registros\Registros\bin\Debug\netcoreapp2.1\Registros.deps.json
+C:\Users\mañana\source\repos\Registros\Registros\bin\Debug\netcoreapp2.1\Registros.runtimeconfig.json
+C:\Users\mañana\source\repos\Registros\Registros\bin\Debug\netcoreapp2.1\Registros.runtimeconfig.dev.json
+C:\Users\mañana\source\repos\Registros\Registros\bin\Debug\netcoreapp2.1\Registros.dll
+C:\Users\mañana\source\repos\Registros\Registros\obj\Debug\netcoreapp2.1\Registros.csproj.CoreCompileInputs.cache
+C:\Users\mañana\source\repos\Registros\Registros\obj\Debug\netcoreapp2.1\Registros.AssemblyInfoInputs.cache
+C:\Users\mañana\source\repos\Registros\Registros\obj\Debug\netcoreapp2.1\Registros.AssemblyInfo.cs

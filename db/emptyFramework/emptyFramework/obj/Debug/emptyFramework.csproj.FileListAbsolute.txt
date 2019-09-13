@@ -1,0 +1,12 @@
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\emptyFramework.exe.config
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\emptyFramework.exe
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\emptyFramework.pdb
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\EntityFramework.dll
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\EntityFramework.xml
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\obj\Debug\emptyFramework.csprojAssemblyReference.cache
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\obj\Debug\emptyFramework.csproj.CoreCompileInputs.cache
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\obj\Debug\emptyFramework.csproj.CopyComplete
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\obj\Debug\emptyFramework.exe
+C:\Users\mañana\source\repos\emptyFramework\emptyFramework\obj\Debug\emptyFramework.pdb

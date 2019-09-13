@@ -6,7 +6,7 @@ namespace conexionDB.Entidades
 {
     class Usuario
     {
-        String nombre;
+        string nombre;
         string clave;
 
         public string Nombre { get => nombre; set => nombre = value; }
