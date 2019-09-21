@@ -13,5 +13,5 @@ namespace conexionDB
             cUsuario.InsertarUsuario(usu);
             cUsuario.InsertarUsuario(new Usuario() { Nombre = "Yo", Clave = "666" });
         }
-    }
+    }Z>Z>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }

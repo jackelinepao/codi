@@ -23,7 +23,7 @@ namespace conexionDB.Controladores
             ($"UPDATE USUARIOS SET CLAVE = '{usuario.Clave}' " +
             $"WHERE NOMBRE = '{usuario.Nombre}'", con.GetConexion());
             con.AbrirConexion();
-            cmd.ExecuteNonQuery();
+            Int32 count = Int32
             con.CerrarConexion();
         }
     }

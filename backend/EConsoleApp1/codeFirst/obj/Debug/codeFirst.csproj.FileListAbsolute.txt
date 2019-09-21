@@ -1,0 +1,12 @@
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\codeFirst.exe.config
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\codeFirst.exe
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\codeFirst.pdb
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\EntityFramework.dll
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\EntityFramework.xml
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\obj\Debug\codeFirst.csprojAssemblyReference.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\obj\Debug\codeFirst.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\obj\Debug\codeFirst.csproj.CopyComplete
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\obj\Debug\codeFirst.exe
+C:\Users\mañana\Desktop\hoy\codi\backend\EConsoleApp1\codeFirst\obj\Debug\codeFirst.pdb
