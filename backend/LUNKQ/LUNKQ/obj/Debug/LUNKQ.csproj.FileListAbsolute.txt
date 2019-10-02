@@ -1,0 +1,12 @@
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\LUNKQ.exe.config
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\LUNKQ.exe
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\LUNKQ.pdb
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\EntityFramework.dll
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\EntityFramework.xml
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\obj\Debug\LUNKQ.csprojAssemblyReference.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\obj\Debug\LUNKQ.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\obj\Debug\LUNKQ.csproj.CopyComplete
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\obj\Debug\LUNKQ.exe
+C:\Users\mañana\Desktop\hoy\codi\backend\LUNKQ\LUNKQ\obj\Debug\LUNKQ.pdb

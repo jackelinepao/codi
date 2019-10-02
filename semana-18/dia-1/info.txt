@@ -1,0 +1,12 @@
+npm install -g @angular/cli => instalar angular
+ng new name-project
+ng serve => para correr el servidor
+ng serve --open => correr en un navegador
+ng serve --open --port 4300 => cambiar el puerto
+git init
+ng generate component components/navbar => generar components
+ng g c components/contenedor
+ng g c components/contenedor -- skipTest => para evitar crear el archivo test
+--dryRun => ver los cambios al ejecutar el comando
+--dry-run
+ng generate service sevices/sesion =>para crear un servicio

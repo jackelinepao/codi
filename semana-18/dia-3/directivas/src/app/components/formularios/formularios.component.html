@@ -1,0 +1,97 @@
+<main>
+    <fieldset>
+        <legend>Reserva de Ambientes</legend>
+        <form action="">
+            <div>
+                <label for="">Nombres</label>
+                <input type="text" name="nombres" id="" required #nombres>
+            </div>
+            <div>
+                <label for="">Apellidos</label>
+                <input type="text" name="apellidos" id="" required #apellidos>
+            </div>
+            <div>
+                <label for="">Fecha de Reserva</label>
+                <input type="date" name="" id="">
+            </div>
+            <div>
+                <label for="">Hora de Reserva</label>
+                <input type="date" name="" id="">
+            </div>
+            <div>
+                <input type="submit" value="Enviar Datos" />
+                <button (click)="imprimir(nombres, apellidos)">IMPRIMIR</button>
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Formulario 2</legend>
+        <form action="">
+            <div>
+                <label for="">Apodo</label>
+                <input type="text" name="apodo" id="" #apodo required [ngModel]>
+            </div>
+            <div>
+                <label for="">Pregunta</label>
+                <input type="text" name="pregunta" id="" #pregunta [ngModel]>
+            </div>
+            <div>
+                <button (click)="imprimir2(apodo, pregunta)">Enviar Datos</button>
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Formulario 3</legend>
+        <form action="">
+            <div>
+                <label for="">Raza</label>
+                <input type="text" name="raza" id="" #raza="ngModel" required [ngModel]>
+            </div>
+            <div>
+                <label for="">Edad</label>
+                <input type="number" name="edad" id="" min="0" max="20" #edad="ngModel" [ngModel] requiered>
+            </div>
+            <div>
+                <button (click)="imprimir3(raza, edad)" [disabled]="!raza.valid">Registrar Mascota</button>
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Formulario 4</legend>
+        <form action="">
+            <div>
+                <label for="">Raza</label>
+                <input type="text" name="raza" id="" #raza="ngModel" required [ngModel]>
+            </div>
+            <div>
+                <label for="">Edad</label>
+                <input type="number" name="edad" id="" min="0" max="20" #edad="ngModel" [ngModel] requiered>
+            </div>
+            <div>
+                <button (click)="imprimir3(raza, edad)" [disabled]="!raza.valid">Registrar Mascota</button>
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Formulario 4</legend>
+        <form action="" #formulario="ngForm" (ngSubmir)="imprimir4(formulario)">
+            <div>
+                <label for="">Autor</label>
+                <input type="text" name="autor" id="" #autor="ngModel" required [ngModel]>
+            </div>
+            <div>
+                <label for="">Cancion</label>
+                <input type="text" name="cancion" id="" #cancion="ngModel" [(ngModel)]="data.miCancion" requiered>
+            </div>
+            <div>
+                <label for="">Genero</label>
+                <!-- <input type="text" name="genero" id="" #genero="ngModel" [ngModel]="miGenero" requiered> ida one away-->
+                <input type="text" name="genero" id="" #genero="ngModel" [(ngModel)]="data.miGenero" requiered><!--to way ida y retorno-->
+            </div>
+            <div>
+                <!-- <button (click)="imprimir4(formulario)">Registrar Mascota</button> -->
+                <button (click)="imprimir4(formulario)">Registrar Mascota</button>
+            </div>
+        </form>
+    </fieldset>
+</main>

@@ -1,0 +1,17 @@
+<header>
+    <div>
+        <h4>{{marca}}</h4>
+        <nav *ngIf="sesion === true">
+            <ul>
+                <li *ngFor="let item of links">
+                    {{item}}
+                </li>
+            </ul>
+        </nav>
+        <nav *ngIf="sesion === false">
+            <ul>
+                <li>Iniciar Sesión</li>
+            </ul>
+        </nav>
+    </div>
+</header>

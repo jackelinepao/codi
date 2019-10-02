@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    flex-direction: column
+}
+form{
+    width: 40%;
+    margin: auto
+}
+input {
+    padding: .5rem;
+    margin-top: .4rem;
+    margin-bottom: 1rem
+}

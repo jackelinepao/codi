@@ -1,0 +1,11 @@
+<h1>Ciclos y Servicios</h1>
+<app-nav></app-nav>
+<ng-container *ngIf="validado; else Alerta">
+  <strong>Ud. ha accedido correctamente</strong>
+  <app-main></app-main>
+  <router-outlet></router-outlet>
+</ng-container>
+
+<ng-template #Alerta>
+  <p class="text-danger font-weight-bold">Ud. No tiene acceso al contenido!!!</p>
+</ng-template>

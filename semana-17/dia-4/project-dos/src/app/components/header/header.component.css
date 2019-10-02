@@ -1,0 +1,21 @@
+header {
+    background: greenyellow;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+header > div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 2rem;
+}

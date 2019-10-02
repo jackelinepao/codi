@@ -1,3 +1,6 @@
 h2, p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
+}
+.d-flex {
+    display: flex;
 }

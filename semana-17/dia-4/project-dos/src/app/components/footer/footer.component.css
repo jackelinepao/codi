@@ -1,0 +1,10 @@
+footer {
+    background: black;
+    padding: 3rem 0;
+    color: white
+}
+footer > div {
+    width: 80%;
+    margin: auto;
+    font-size: .75rem
+}

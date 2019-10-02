@@ -1,0 +1,26 @@
+.button{
+    outline: none;
+    background: black;
+    color: white;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
+.relleno-interno {
+    padding: 1rem;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+code{
+    font-family: monospace;
+    color: green;
+}
+.texto-exito {
+    color: greenyellow;
+}
+.texto-error{
+    color: red;
+}
+.texto-alerta{
+    color: yellowgreen;
+}

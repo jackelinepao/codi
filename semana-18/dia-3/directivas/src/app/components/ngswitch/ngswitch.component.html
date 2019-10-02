@@ -1,0 +1,14 @@
+<main>
+    <h1>Directiva <code>[ngSwitch]</code></h1>
+    <span [ngSwitch]="alerta">
+        <p *ngSwitchCase= "'danger'" [ngStyle]="{'color':'red'}">
+            DANGER
+        </p>
+        <p *ngSwitchCase= "'success'" [ngStyle]="{'color':'green'}">
+            SUCCESS
+        </p>
+        <p *ngSwitchDefault>
+            NO HAY CONCIDENCIAS
+        </p>
+    </span>
+</main>
