@@ -20,6 +20,6 @@ const MIS_RUTAS: Routes = [
         path: '**',
         component: ErrorComponent
     }
-];
+]; 
 
 export const RUTAS = RouterModule.forRoot(MIS_RUTAS); 

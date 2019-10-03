@@ -21,7 +21,7 @@ import { RUTAS } from './app.routes'
   imports: [
     BrowserModule,
     RUTAS,
-    HttpClientModule
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
