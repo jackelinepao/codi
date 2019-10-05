@@ -1,0 +1,42 @@
+<main class="container mt-5">
+    <section>
+        <h2 class="display-4">Crear Factura</h2>
+        <form action="" #formulario="ngForm">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="nFactura">Nro de Factura</label>
+                        <input type="text" name="numero_factura" required id="nFactura" class="form-control" [(ngModel)]="objFactura.fact_nro" placeholder="Ejm: F01-00456" #nFactura="ngModel">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="nRazonSocial">Razón Social</label>
+                        <input type="text" name="razon_social" required id="nRazonSocial" class="form-control" placeholder="Ejm: Pelicano S.A." [(ngModel)]="objFactura.fact_rz" #nRazonSocial="ngModel">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="fecha_f">Fecha de Facturación</label>
+                        <input type="date" name="fecha" id="" class="form-control" required [(ngModel)]="objFactura.fact_fech" #fecha_f="ngModel">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="ruc">RUC</label>
+                        <input type="text" name="ruc" id="ruc" maxlength="11" minlength="11" class="form-control" required placeholder="Ejm: 12345678901" [(ngModel)]="objFactura.fact_ruc" #ruc="ngModel">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-block btn-lg btn-dark" [disable]="!formulario.valid">
+                    <i class="fas fa-save    "></i> Registrar Factura
+                </button>
+            </div>
+        </form>
+    </section>
+</main>

@@ -1,0 +1,7 @@
+.cont-cards{
+    display: flex;
+    flex-wrap: wrap
+}
+.cards {
+    width: calc(100%/3)
+}

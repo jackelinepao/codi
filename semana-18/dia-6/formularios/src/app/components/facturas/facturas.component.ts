@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FacturasService } from './../../services/facturas.service';
 import { Subscription } from 'rxjs';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-facturas',
@@ -11,7 +12,7 @@ export class FacturasComponent implements OnInit {
   facturas;
   subscriptor: Subscription;
 
-  constructor(private _sFacturas: FacturasService) { }
+  constructor(private _sFacturas: FacturasService, private _sRouter: Router) { }
 
   ngOnInit() {
     this.subscriptor = this._sFacturas.getFacturas().subscribe((resultado)=>{
@@ -22,5 +23,8 @@ export class FacturasComponent implements OnInit {
     this.subscriptor.unsubscribe();
   }
 
+  crearFactura(){
+    this._sRouter.navigate(['facturas', 'crear'])
+  }
   
 }

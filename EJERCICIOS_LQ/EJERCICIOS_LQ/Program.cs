@@ -30,6 +30,12 @@ namespace EJERCICIOS_LQ
                 {
                     Console.WriteLine(item.Nombre);
                 };
+                var productosCol = from p in context.products.ToList()
+                                   select new
+                                   {
+
+                                   }
+
             }
         }
     }

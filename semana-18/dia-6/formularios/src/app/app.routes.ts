@@ -2,6 +2,8 @@ import { RouterModule, Routes }from '@angular/router';
 import { FacturasComponent } from './components/facturas/facturas.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
+import { CrearFacturaComponent } from './components/crear-factura/crear-factura.component';
+import { VerFacturaComponent } from './components/ver-factura/ver-factura.component';
 
 const MIS_RUTAS: Routes = [
     {
@@ -15,6 +17,14 @@ const MIS_RUTAS: Routes = [
     {
         path: 'facturas',
         component: FacturasComponent
+    },
+    {
+        path: 'facturas/crear',
+        component: CrearFacturaComponent
+    },
+    {
+        path: 'facturas/:id',
+        component: VerFacturaComponent
     },
     {
         path: '**',

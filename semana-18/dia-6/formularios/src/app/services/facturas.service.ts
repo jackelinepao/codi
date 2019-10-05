@@ -12,4 +12,7 @@ export class FacturasService {
   getFacturas(): Observable<any> {
     return this._sHttp.get("https://5d93ed36e020b300147db151.mockapi.io/facturas")
   }
+  // postFacturas(): Observable<any> {
+  //   return this._sHttp.post("https://5d93ed36e020b300147db151.mockapi.io/facturas", data)
+  // }
 } 
