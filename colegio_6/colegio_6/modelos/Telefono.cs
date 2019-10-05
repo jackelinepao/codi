@@ -8,6 +8,7 @@ namespace colegio_6.modelos
 {
     class Telefono
     {
+        public int profesor_FK { get; set; }
         public int id { get; set; }
         public string codCiudad { get; set; }
         public string numero { get; set; }

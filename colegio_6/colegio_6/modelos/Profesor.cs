@@ -10,7 +10,7 @@ namespace colegio_6.modelos
     {
         public int profesor_PK { get; set; }
         public string nombre { get; set; }
-        public Telefono Telefono { get; set; }
+        public Direccion Direccion { get; set; }
         public int facultad { get; set; }
 
 
