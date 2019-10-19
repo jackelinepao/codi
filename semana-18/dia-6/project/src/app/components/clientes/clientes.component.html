@@ -1,1 +1,28 @@
-<p>clientes works!</p>
+<main class="container mt-5">
+    <div>
+        <div class="alert alert-success text-center" role="alert" *ngIf="!clientes">
+            <h4 class="alert-heading">Cargando...........</h4>
+            <p><i class="fa fa-refresh fa-3x fa-spin" aria-hidden="true"></i>
+            </p>
+            <p class="mb-0"></p>
+        </div>
+    </div>
+    <div *ngIf="clientes" class="animated">
+        <table class="table">
+            <thead>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>DNI</th>
+                <th>Telefono</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let c of clientes">
+                    <td>{{c.id}}</td>
+                    <td>{{c.name}}</td>
+                    <td>{{c.dni}}</td>
+                    <td>{{c.telefono}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>

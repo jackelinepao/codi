@@ -6,7 +6,7 @@
         <h5 class="card-title">{{producto.prod_nom | uppercase}}</h5>
         <p class="card-text">{{producto.prod_desc | slice:0:10}}
           <br><strong>{{producto.prod_price | number: '1.1-2' | currency: 'EUR'}}</strong></p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary" (click)="anadirProducto(producto)">Añadir a Carrito</a>
       </div>
     </div>
   </div>

@@ -1,3 +1,8 @@
 <div class="row">
-    input
+    <label class="col-3">Ingrese el monto en Euros:</label>
+    <input type="number" class="form-control col-5" [(ngModel)] = "monto">
+    <label class="col-4">Monto Convertido: {{monto | monedas}}</label>
+    <label class="col-3">Ingrese el Texto:</label>
+    <input type="text" class="form-control col-5" [(ngModel)] = "texto">
+    <label class="col-4">Monto Convertido: {{texto | firstLetter}}</label>
 </div>

@@ -101,6 +101,9 @@ namespace colegio_6
                 .WithRequired(x => x.Profesor);
 
 
+
+
+
             base.OnModelCreating(modelBuilder);
         }
 

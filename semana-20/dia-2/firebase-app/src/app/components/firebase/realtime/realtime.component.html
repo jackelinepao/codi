@@ -1,0 +1,132 @@
+<div class="container">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <img src="{{ slide.img }}" alt="" width="100%">
+        </div>
+    </ngx-slick-carousel>
+
+    <button (click)="addSlide()">Add</button>
+    <button (click)="removeSlide()">Remove</button>
+    <button (click)="slickModal.slickGoTo(2)">slickGoto 2</button>
+    <button (click)="slickModal.unslick()">unslick</button>
+</div>
+<section class="container">
+    <div *ngIf="!listaUsuarios">Cargando ...</div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Formulario de creación de Usuarios</h4>
+                </div>
+                <div class="card-body">
+                    <form [formGroup]="formulario" (ngSubmit)="onSubmit(miimg)">
+                        <div class="form-group">
+                            <label for="">Nombre:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese" formControlName="campo_nombre"
+                                [ngClass]="{'is-valid': formulario.get('campo_nombre').valid, 'is-invalid': !formulario.get('campo_nombre').valid && !formulario.get('campo_nombre').pristine}">
+                            <small class="text-danger" *ngIf="!formulario.get('campo_nombre').valid &&
+                            formulario.get('campo_nombre').pristine == false">El campo nombre es obligatorio</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Apellido:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese"
+                                formControlName="campo_apellido"
+                                [ngClass]="{'is-valid': formulario.get('campo_apellido').valid, 'is-invalid': !formulario.get('campo_apellido') && formulario.get('campo_apellido').pristine == false}">
+                            <small class="text-danger"
+                                *ngIf="!formulario.get('campo_apellido').valid && formulario.get('campo_apellido').pristine == false">El
+                                campo apellido es obligatorio</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Imagen:</label>
+                            <img [src]="imgUrl" *ngIf="imgUrl" alt="" width="100%">
+                            <input type="file" class="form-control" placeholder="Ingrese" formControlName="campo_imagen" (change)="previsualizarFoto($event)" #miimg>
+                            <!-- <small class="text-danger" *ngIf="!formulario.get('campo_imagen').valid &&
+                            formulario.get('campo_imagen').pristine == false">El campo imagen es obligatorio</small> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese" formControlName="campo_email"
+                                [ngClass]="{
+                                    'is-valid': formulario.get('campo_email').valid,
+                                    'is-invalid': !formulario.get('campo_email').valid && !formulario.get('campo_email').pristine
+                                }"><small class="text-danger" *ngIf="formulario.get('campo_email').errors?.required &&
+                            formulario.get('campo_email').pristine == false">El campo email es incorrecto</small>
+                            <small class="text-danger" *ngIf="formulario.get('campo_email').errors?.pattern &&
+                            formulario.get('campo_email').pristine == false">Debe de ser un formeto de email que
+                                incluya @</small>
+
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-block btn-primary" [disabled]="!formulario.valid">
+                                <i class="fas fa-save"></i>
+                                Crear Usuario
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">  
+            <div class="card text-left">
+                <div class="card-header text-right">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-secondary text-center" (click)="modoTabla = true"
+                            [ngClass]="{'active': modoTabla}">
+                            <i class="fas fa-list    "></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary text-center" (click)="modoTabla = false"
+                            [ngClass]="{'active': !modoTable}">
+                            <i class="fas fa-table    "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-columns" *ngIf="listaUsuarios && !modoTabla">
+                        <div class="card" *ngFor="let usu of listaUsuarios; let i=index">
+                            <img [src]="usu.imagen" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Nombre:</strong> {{usu.nombre}}</p>
+                                <p class="card-text"><strong>Apellido:</strong> {{usu.apellido}}</p>
+                                <p class="card-text"><strong>Email:</strong> {{usu.email}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <table *ngIf="listaUsuarios && modoTabla" class="table table-bordered table-hover animated fadeIn">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Id</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Imagen</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let usu of listaUsuarios; let i=index" class="text-center">
+                                <td>{{i}}</td>
+                                <td>{{usu.id}}</td>
+                                <td>{{usu.nombre}}</td>
+                                <td>{{usu.apellido}}</td>
+                                <td>
+                                    <!--<img src="{{usu.imagen}}" alt="" width="100%">-->
+                                    <img [src]="usu.imagen" width="100%">
+                                </td>
+                                <td>
+                                    <button class="btn btn-info">
+                                        <i class="fa fa-pencil"></i>
+                                    </button>
+                                    <button class="btn btn-dark ml-3" (click)="eliminarUusario(usu.id)">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
