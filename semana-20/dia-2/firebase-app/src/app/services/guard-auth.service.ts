@@ -12,7 +12,7 @@ export class GuardAuthService implements CanActivate {
     if(localStorage.getItem('sesion')){
       return true
     }else {
-      return false;
+      return true;
     }
   }
 }

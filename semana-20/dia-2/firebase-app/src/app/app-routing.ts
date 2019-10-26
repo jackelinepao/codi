@@ -7,10 +7,14 @@ import { FirebaseComponent } from './components/firebase/firebase.component';
 import { RealtimeComponent } from './components/firebase/realtime/realtime.component';
 import { FirestoreComponent } from './components/firebase/firestore/firestore.component';
 import { GuardAuthService } from './services/guard-auth.service';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/login/register.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'pabellones', component: PabellonesComponent},
+    { path: 'login', component: LoginComponent},
+    { path: 'register', component: RegisterComponent},
     { path: 'firebase', component: FirebaseComponent,
     canActivate: [GuardAuthService],
     children: [

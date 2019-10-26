@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireStorageModule } from '@angular/fire/storage'
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing';
 import { AppComponent } from './app.component';
@@ -19,6 +20,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel'
 //modulos para form reactivos
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { from } from 'rxjs';
+import { RegisterComponent } from './components/login/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import { from } from 'rxjs';
     PabellonesComponent,
     FirebaseComponent,
     RealtimeComponent,
-    FirestoreComponent
+    FirestoreComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +44,8 @@ import { from } from 'rxjs';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
     SlickCarouselModule,
-    AngularFireStorageModule
+    AngularFireStorageModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
