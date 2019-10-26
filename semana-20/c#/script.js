@@ -11,6 +11,7 @@ $('#buscar').click(function (e) {
         url: 'https://localhost:44384/api/books/'+val,
         success: function(respuesta) {
             console.log(respuesta);
+            
         },
         error: function() {
             console.log("No se ha podido obtener la información");
