@@ -2,6 +2,8 @@ import express from 'express';
 import { producto_router } from './../rutas/Producto';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
+import { pruebaConexion } from '../config/sequelize'
+import { sequelize } from '../config/sequelize'
 
 export class Servidor {
 
@@ -29,6 +31,16 @@ export class Servidor {
   start() {
     this.app.listen(this.puerto, () => {
       console.log("Servidor corriendo correctamente en el puerto " + this.puerto);
+
+      pruebaConexion();
+      //force:true
+      sequelize.sync({force:false}).then(()=>{
+        console.log("Tablas creadas con exito");
+        
+      }).catch((error:any)=>{
+        console.log("No se cre el codigo", error);
+        
+      })
     })
   }
 }
