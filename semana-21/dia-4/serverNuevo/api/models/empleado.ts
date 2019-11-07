@@ -1,4 +1,5 @@
 import { Sequelize, Model, DataTypes } from "sequelize";
+import { empleado_router } from "../rutas/Empleado";
 
 export var empleado_model = (sequelize:Sequelize, type:any)=>{
     class empleado_model extends Model {};
@@ -25,5 +26,9 @@ export var empleado_model = (sequelize:Sequelize, type:any)=>{
         modelName: 't_empleado',
         timestamps:false
     })
+    empleado_model.prototype.mostrarDatos = function(){
+        console.log(`Datos`);
+        
+    }
     return empleado_model;
 }

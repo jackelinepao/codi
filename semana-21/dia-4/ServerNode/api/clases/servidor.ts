@@ -1,5 +1,6 @@
 import express from 'express';
 import { producto_router } from './../rutas/producto';
+import { } from './../rutas'
 
 export class Servidor {
     public app: express.Application;

@@ -1,5 +1,6 @@
 import express from 'express';
 import { producto_router } from './../rutas/Producto';
+import { empleado_router } from './../rutas/Empleado';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
 import { pruebaConexion } from '../config/sequelize'
@@ -26,6 +27,7 @@ export class Servidor {
 
   configurarRutas() {
     this.app.use(producto_router);
+    this.app.use(empleado_router);
   }
 
   start() {

@@ -31,3 +31,8 @@ export const DetalleVenta = det_venta_model(sequelize, Sequelize);
 Venta.belongsTo(Empleado, {foreignKey: 'emp_id'});
 Empleado.hasMany(Venta,{foreignKey:'emp_id'})
 
+DetalleVenta.belongsTo( Venta, {foreignKey: 'vent_id'});
+Venta.hasMany(DetalleVenta, {foreignKey:'vent_id'});
+
+DetalleVenta.belongsTo(Producto, {foreignKey: 'prod_id'});
+Producto.hasMany(DetalleVenta, {foreignKey: 'prod_id'})
