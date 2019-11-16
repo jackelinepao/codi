@@ -10,25 +10,27 @@ export let usuario_model = (sequelize:any) =>{
             autoIncrement: true,
             allowNull: false
         },
-        usu_nom: {
-            type: DataTypes.STRING(50),
-            allowNull: false
-        },
-        usu_ape: {
-            type: DataTypes.STRING(50),
-            allowNull: false
-        },
         usu_email: {
             type: DataTypes.STRING(30),
             allowNull: false
         },
-
         usu_hash: {
             type: DataTypes.TEXT
         },
         usu_salt: {
             type: DataTypes.TEXT
         },
+        usu_fechreg: {
+            type: DataTypes.DATE,
+            allowNull: false
+        },
+        usu_fechses: {
+            type: DataTypes.DATE,
+            allowNull: false
+        },
+        usu_imgurl:{
+            type: DataTypes.TEXT
+        }
     }, {
         tableName: 't_usuario',
         timestamps: false

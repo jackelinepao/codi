@@ -8,15 +8,15 @@ import { reserva_model } from "../modelos/Reserva";
 const Sequelize = require("sequelize");
 
 export const sequelize = new Sequelize(
-    // 'LDv0pN4uWQ',//database name
-    // 'LDv0pN4uWQ',//username
-    // 'JGnf7mu1Ya', //password
-    'aulas',
-    'root',
-    'root',
+    'KZrukC88Bo',//database name
+    'KZrukC88Bo',//username
+    'MrkXoGyv0a', //password
+    // 'aulas',
+    // 'root',
+    // 'root',
     {
-    //host: 'remotemysql.com',//server name: remotemysql.com:3306
-    host: 'localhost',
+    host: 'remotemysql.com',//server name: remotemysql.com:3306
+    //host: 'localhost',
     dialect: 'mysql',
     timezone: '-05:00',
     dialectOption: {
