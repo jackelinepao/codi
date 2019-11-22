@@ -2,6 +2,8 @@ const express = require('express');
 const socketio = require('socket.io');
 const http = require('http');
 
+const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
+
 const PORT = process.env.PORT || 5000;
 
 const router = require('./routes');
@@ -20,12 +22,25 @@ io.on('connection', (socket) => {
         room
     }, callback) => {
         console.log(name, room)
-        const error = true;
+            //     const error = true;
+            //     if (error) {
+            //         callback({ error: 'Algo ha pasado' });
+            //     }
+        const { error, user } = addUser({ id: socket.id, name, room });
         if (error) {
-            callback({ error: 'Algo ha pasado' });
+            return callback(error)
         }
+        socket.emit('message', { user: 'Bot-Server', text: `${user.name}, bienvenido a la sala ${user.room}` });
+        socket.broadcast.to(user.room).emit('message', { user: 'Bot-Server', text: `${user.name} se ha unido!!` });
+        socket.join(user.room);
+        callback();
 
     });
+    socket.on('sendMessage', (message, callback) => {
+        const user = getUser(socket.id)
+        io.to(user.room).emit('message', { user: user.name, text: message });
+        callback();
+    })
     socket.on('disconnect', () => {
         console.log('Nos hemos desconectado');
 

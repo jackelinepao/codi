@@ -32,3 +32,5 @@ npm i react-router-dom
 constructor
 render()
 componentDidMount()funciones y la caraga asincrona
+
+npm i toastr

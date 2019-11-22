@@ -16,3 +16,4 @@ usuario_router.post('/usuario/loggin', usuario_controlador.iniciarSesion)
 // 		"usu_pass": "123456"
 // 	}
 // }
+
